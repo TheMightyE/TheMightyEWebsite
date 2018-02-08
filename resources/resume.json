@@ -1,0 +1,77 @@
+{
+  "phone": "732-966-1962",
+  "email": "sk2283@njit.edu",
+  "address": "1420 18th Ave Apartment 66, Wall, NJ 07719",
+  "objective": "Looking for an internship or a part-time job to obtain hands-on experience on solving real life problems.",
+  "education": [
+    {
+      "name": "New Jersey Institute of Technology",
+      "location": "Newark, NJ",
+      "major": "Bachelor of Computer Science",
+      "from": "2016",
+      "to": "2019"
+    },
+    {
+      "name": "Brookdale Community College",
+      "location": "Lincroft, NJ",
+      "major": "General Education, Computer Science",
+      "from": "2014",
+      "to": "2016"
+    }
+  ],
+  "skills": [
+    "Programming languages: JavaCOMMA PythonCOMMA CCOMMA C++COMMA Shell Script",
+    "Operating Systems: LinuxCOMMA Windows",
+    "Knowledge of DOM trees and web processing",
+    "Software: Microsoft OfficeCOMMA EclipseCOMMA emacsCOMMA PyCharmCOMMA IntelliJ IDEACOMMA Visual StudioCOMMA Android Studio",
+    "Object Oriented ProgrammingCOMMA data structures",
+    "MySql database",
+    "Basic Android development",
+    "Writes efficient and organized code"
+  ],
+  "work": [
+    {
+      "company": "New Jersey Institute of Technology",
+      "location": "Trenton, NJ",
+      "positions": [
+        {
+          "title": "Paid Tutor for NJIT Association of Computing Machinery",
+          "from": "2018",
+          "to": "Present",
+          "description": [
+            "Tutors anyone who needs help for all of the computer science courses that I have already taken"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Saker ShopRites",
+      "location": "Belmar, NJ",
+      "positions": [
+        {
+          "title": "Pharmacy Technician",
+          "from": "2015",
+          "to": "Present",
+          "description": [
+            "Receives written prescriptionsCOMMA refills prescriptionsCOMMA and verifies that the information is complete and accurate",
+            "OrdersCOMMA labelsCOMMA and counts stock of medication and suppliesCOMMA and enters inventory data into computer"
+          ]
+        },
+        {
+          "title": "Management",
+          "from": "2013",
+          "to": "Present",
+          "description": [
+            "Keep track of inventory for all items in the store",
+            "Monitor product movement through a computer software",
+            "Input data in an Excel spreadsheet"
+          ]
+        }
+      ]
+    }
+  ],
+  "additional-skills": [
+    "Customer serviceCOMMA technical supportCOMMA detailed and organizedCOMMA communication skills",
+    "Languages: EnglishCOMMA UrduCOMMA Punjabi"
+  ]
+}
