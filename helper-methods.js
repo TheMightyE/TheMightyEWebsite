@@ -9,19 +9,20 @@
     xmlhttp.open("GET", "resources/resume.json", true);
     xmlhttp.send();
 }*/
-var url = "resources/resume.json";
+var urlResume = "resources/resume.json";
+var urlProjects = "resources/projects.json";
 
 function loadObjective() {
-    $.getJSON(url, function (obj) {
+    $.getJSON(urlResume, function (obj) {
         $(document).ready(function () {
             $('#objective').html(obj.objective)
         })
-    })
+    });
 
 }
 
 function loadEducation() {
-    $.getJSON(url, function (obj) {
+    $.getJSON(urlResume, function (obj) {
         var edu = obj.education;
 
         $(document).ready(function () {
@@ -30,12 +31,12 @@ function loadEducation() {
             })
         })
 
-    })
+    });
 
 }
 
 function loadSkills() {
-    $.getJSON(url, function (obj) {
+    $.getJSON(urlResume, function (obj) {
         var skills = obj.skills;
 
         $(document).ready(function () {
@@ -43,6 +44,29 @@ function loadSkills() {
                 $('#skill-list').append("<li><p>" + replace(skills[i]) + "</p></li>")
         })
 
+    });
+
+}
+
+
+// Load projects
+
+function loadKnightsTour() {
+    $.getJSON(urlProjects, function (obj) {
+        $(document).ready(function () {
+            $('#knights-tour-description').append(obj.knights_tour.description)
+        })
+
+    });
+
+}
+
+function loadStocks() {
+    $.getJSON(urlProjects, function (obj) {
+        $(document).ready(function () {
+            $('#stocks-description').append(obj.web_scraping.description)
+
+        })
     })
 
 }
