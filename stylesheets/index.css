@@ -7,6 +7,7 @@ body {
     height: 100%;
     padding-top: 60px;
     background: url("../resources/stars.png") fixed;
+    font-family: "Helvetica", serif;
 
 }
 
@@ -15,7 +16,7 @@ body {
 }
 
 #nav-logo {
-    padding-top: 1px;
+    padding: 1px;
 }
 
 .jumbotron {

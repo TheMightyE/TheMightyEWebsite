@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--end CDNs-->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/personal-projects.css">
     <script src="helper-methods.js"></script>
 
 </head>
@@ -55,6 +55,12 @@
     </div><!-- /.container-fluid -->
 </nav>
 <!--end navbar-->
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-left" id="heading">Personal Projects</h1>
+    </div>
+</div>
 
 </body>
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>School Projects</title>
     <!--CDNs-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -60,8 +61,9 @@
 <!--end navbar-->
 <header>
     <div class="container" id="header-txt-container">
-        <!--<img class="img-responsive" id="header-img" src="resources/project-wide.jpg">-->
-        <h1 class="text-center" id="header-txt">My School Projects</h1>
+        <div class="jumbotron">
+            <h1 class="text-center" id="header-txt">My School Projects</h1>
+        </div>
     </div>
 </header>
 
@@ -69,7 +71,7 @@
 <div class="container projects-title">
     <h2>Knight's Tour
         <span class="btn-group">
-            <button class="btn btn-default">View on GitHub</button>
+            <button class="btn btn-default"><span class="fa fa-github" style="font-size: 2vh"   >View on GitHub</span></button>
         </span>
     </h2>
 </div>
@@ -83,7 +85,8 @@
     <h2>Web Scraping
         <span class="btn-group">
             <button class="btn btn-default"
-                    onclick="window.open('https://github.com/TheMightyE/NJIT_F17/tree/master/cs288/hw09')">View on GitHub</button>
+                    onclick="window.open('https://github.com/TheMightyE/NJIT_F17/tree/master/cs288/hw09')">
+                <span class="fa fa-github" style="font-size: 2vh">View on GitHub</span></button>
         </span>
     </h2>
 </div>
